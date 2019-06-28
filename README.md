@@ -7,5 +7,15 @@
 * [linux install](https://docs.opencv.org/4.1.0/d7/d9f/tutorial_linux_install.html)
 * [using with gcc,CMake](https://docs.opencv.org/4.1.0/db/df5/tutorial_linux_gcc_cmake.html)
 
+### Installing Dependencies
+##### dev tools
+build-essential cmake pkg-config
+##### image io packages
+libpng12-dev -- is version 1.2, libpng16-16 is installled (v1.6 runtime).
+So install libpng12-dev I guess although may be old
+
+libjpeg-dev, libtiff5-dev, libjasper-dev
+##### vid io packages
+
 ### Also look into
 ROS, Mavlink, Ardupilot, Pixhawk
