@@ -16,6 +16,23 @@ So install libpng12-dev I guess although may be old
 
 libjpeg-dev, libtiff5-dev, libjasper-dev
 ##### vid io packages
+libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+
+next, libxvidcore-dev libx264-dev
+##### highgui
+Displays images to screen, basic GUIs. Need libgtk2.0-dev
+##### Optimization (matrix op)
+libatlas-base-dev gfortran
+##### Python bindings
+python2.7-dev python3-dev
+
+#### MAKE WITH
+```
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
+> -D CMAKE_INSTALL_PREFIX=/usr/local \
+> -D INSTALL_PYTHON_EXAMPLES=ON \
+> -D BUILD_EXAMPLES=ON ..
+```
 
 ### Also look into
 ROS, Mavlink, Ardupilot, Pixhawk
